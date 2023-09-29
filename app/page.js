@@ -1,6 +1,6 @@
 
-import Image from 'next/image'
-import {TbDashboard} from 'react-icons/tb'
+
+
 import Navbar from './components/Navbar';
 import Sidebar from './components/Sidebar';
 import Main from './components/main';

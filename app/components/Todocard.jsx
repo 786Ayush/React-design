@@ -7,7 +7,7 @@ const Todocard = () => {
     <>
     {
         todo.map((item)=>(
-            <div className="w-[20vw] m-3  bg-[#211A75] p-3 rounded-2xl">
+            <div key={item.id} className="w-[20vw] m-3  bg-[#211A75] p-3 rounded-2xl">
             <div className="overall flex flex-col">
               <div className="upper flex flex-row justify-between items-center">
                 <div className="left flex items-center">

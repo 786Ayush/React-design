@@ -1,4 +1,4 @@
-'use client';
+
 import React from "react";
 import Card from "./Card";
 import BigCard from "./BigCard";

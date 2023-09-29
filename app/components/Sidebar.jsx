@@ -4,10 +4,10 @@ import { categories, mainmenu } from "@/public/constants";
 const Sidebar = () => {
   return (
     <>
-      <div className="flex flex-col bg-[#15132B] w-[13vw] min-h-screen w-[13vw]">
+      <div className="flex flex-col bg-[#15132B] w-[13vw] min-h-screen ">
         <div className="text-cyan-50 text-center">Main Menu</div>
         {categories.map((category) => (
-          <div className="">
+          <div className="" key={category.id}>
             <div
               className="flex flex-row items-center justify-between"
               style={{
