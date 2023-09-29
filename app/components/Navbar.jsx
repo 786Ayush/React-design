@@ -5,7 +5,7 @@ import { BiSearch, BiSolidMessageSquareCheck } from "react-icons/bi";
 const Navbar = () => {
   return (
     <>
-      <div className="flex flex-row bg-[#15132B] items-center justify-evenly">
+      <div className="flex flex-row bg-[#15132B] items-center justify-evenly w-screen">
         <div className="flex flex-row items-center p-5">
           <div className="content  text-[#fff]">weframetech</div>
           <div className="icon text-[#7879F1] p-1">
