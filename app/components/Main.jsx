@@ -9,7 +9,7 @@ import Done from "./Done";
 
 const Main = () => {
   return (
-    <div className="bg-[#0D0B21] h-full w-full">
+    <div className="bg-[#0D0B21] min-h-screen w-full">
       <BigCard />
       <div className="flex flex-row">
         <div className="todolist flex flex-col ">
