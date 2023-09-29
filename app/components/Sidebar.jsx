@@ -1,6 +1,6 @@
 import React from "react";
 import { categories, mainmenu } from "@/public/constants";
-
+import SidebarCard from "./SidebarCard";
 const Sidebar = () => {
   return (
     <>
@@ -52,6 +52,7 @@ const Sidebar = () => {
             </div>
           </div>
         ))}
+        <SidebarCard/>
       </div>
     </>
   );
